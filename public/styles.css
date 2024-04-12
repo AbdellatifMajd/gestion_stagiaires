@@ -1,0 +1,19 @@
+.card-header {
+    display: flex;
+    justify-content: space-between; /* Aligns items with space between them */
+    align-items: center; /* Vertically center aligns items */
+    padding: 10px; /* Optional padding */
+}
+
+.logo-left,
+.logo-right {
+    display: flex; /* Make the logo containers flex containers */
+    align-items: center; /* Vertically center aligns items */
+}
+
+.logo-left img,
+.logo-right img {
+    width: 100px; /* Adjust logo size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Optional margin between logos */
+}
